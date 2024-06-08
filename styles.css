@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.large {
+    width: 500px;
+    height: 100px;
+}
+
+.small {
+    width: 200px;
+    height: 200px;
+}
+
+#naver-search {
+    background-color: #E1E1E1;
+}
+
+#naver {
+    background-color: #D1D1D1;
+}
+
+#youtube {
+    background-color: #FF0000;
+}
+
+#twitter {
+    background-color: #1DA1F2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
